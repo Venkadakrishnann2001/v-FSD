@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bad_banks",
+  "info": {
+    "singularName": "bad-bank",
+    "pluralName": "bad-banks",
+    "displayName": "Bad-bank"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "Balance": {
+      "type": "biginteger"
+    }
+  }
+}
